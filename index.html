@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- starting of navbar -->
+
+    <section class="navbar">
+      <div class="navbar-container section-center">
+        <div class="logo">
+          <h1>Lalit <span>Mehta</span></h1>
+        </div>
+
+        <div class="nav-btn">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of navbar -->
+
+    <!-- starting of hero section -->
+
+    <section class="hero">
+      <div class="hero-container section-center">
+        <div class="hero-content">
+          <h1><span> I'M </span> Lalit</h1>
+          <p>
+            Software Developer and Web-Instructor
+          </p>
+          <a href="#" class="link-btn">HIRE ME </a>
+          <div class="link-containers">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <!-- <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li> -->
+              <li>
+                <a href="#"><i class="fa fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://drive.google.com/uc?id=1JmWCBbh7aaKKZYk4Q2aBRb9tizppphhX"
+            alt="Description of the image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="skills-content section-center">
+        <h1 class="section-heading">Skills</h1>
+        <div class="underline"></div>
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAAB+CAMAAADLNGUJAAAAwFBMVEX///9lmtIARIIAWZxgl9EAV5sAQoFcldAAOHwAVZpYk88AU5kANnsAOn0APn8ANHqLsdv2+fwAL3ju8/kATpfJ2e2dvOB2pNZRj86lweIASpXP2eYjW50sZKGCq9mvyOXV4fHe6PRbfq94kLlyg6cAK3fZ3ue7w9O/0uo0ca8AQ5KNpMU/aaRKfLTl6u+Vn7sAHnJfd59CXpAAFW82VYyCkrKdqcGrtssnSoVUbJmhss5oh7RPh8GxwdggU49GcqhU4BavAAAHFUlEQVRogb2beWOaTBDGRWFRFBBR0UQ8WjzSGBOtZ2Pi9/9W7wIeHDO7C5r3+aelBX/szM7Ms6YtFHKo1XYkyWm38jybQzNZkyUq+svsf8ANHU26SnOGP4yz6+HqLpLVuv2DOGsgx3ABUh5YP8VrOWoS50t1fmb3jPoahAtS2R89HGe1tVQ0I3HV2g+O66DDwIXIwQNxQxVMXiKV6vBBOEbyfiKVVlvlRDMSV7V9d1XOJIFoRuIq3dfthnDlMZF3dLtkHxOTrOXsdlY3Dy5EdnNUZStb8uJSpazdbuQIlgImzclSIna9cx/OV0c8lYO8yYtLtNu1pDujeZMmkErhPiaI5HQ7O0MfExO722XsY2JSJSyVQ/FSkAOJ3g17O8FSkFVNU6V+naov+b8XwgIl0uaNdF9qR2vPRpFn7dGsrXUE8iB32vHkCVSe2nEGYP7tgSPwtrJ2G1y2QPI05m4btWWBj3DOn2BL3PdTuW6XemRuZGUpJDo8nqyKjBuBcSY7/o0D3pupot5o1Od+VJe+GCf49OwghgtfnrlIzX2yCi32W8nSUJxHmwdrP7xUSs2vQp35TrKT0Z9Y6I54KymlUvWz4DBj0M+G8wWPm2OpUvLlFpi8enZeoVBPE1W3qgS8ksICqjnWFxAT20J+qZauYgDDqsmjeB6PJaUkBJRyH/msyF49upUojwFU7zgKjS5A9aVSigsF3nfAnIUb5y2+OhZQzrlhLurLt1IQA955tlzQPlZN41Cg1mV92mg26HYHM9Y7WW8gDl8hvkNn/Y6m+R5K0zp97Pj5+geIJgOoYjvGGsRsE7VU0J1flSaCQ1eItGzgDKfKSTs/OTVTe5MDlJEMdsG+HM+3/buJRRMHavACga4c3l6/Ztz618OjiQKRGsR4NKyXqdKaPzGiiQJVcO/B8YxGdfHJxcHADhTRFtP7aC2/FJDS4wKhsWSxcL6+mpzk4UBwj3bZXutYYpUCB6gBKbSYVis1hCpUSuIaB3YWaeCMtcAXJbG6yi8q9/qHiksvTwoOBCLKOA4AQ+iP/8iv6x83X+nlcxUFqkBE8a+7oSGUEQhs0iEClF/SI52GMASGBOUKVBCgDJhRJIVvpTRO6fV6T+EKe73wshoA6WUPBrbTQLAojj2gSyvz6HO/q/QwcZPdFAW203tGvprpDMCn/MC5AdAeB0yG9ERIsfjNB27iQAsGcjfN8ZvifIExdV236j/zSX9DN1XPdXvBpun51yAQKIvoqVV1yZlHBRGVS1koQQdSlLAsmpXgEmreaWCk8OfFG44KtBMZCx9sbee/eysaxZgIFFcIOGEAgfkbJlH71ospkXRcq7+p3Otl5UQvP/HmrQFf49p+TF2DpHlgKivVSjTWSqVaZYwncAC35RPBcEW/RETsBQIELYZtGDiOxpXg5p4P7EAHi12DBWzsCvanEBICQh6jUPBMnGd6/h3Pp5w2Eeo1tBYPZYxXPpxj8tXjeqkMVt8+1GBebXV1QfZrlbN74MMMfFqzlg1go5LGMprzya8chxn0PLo1U5Wvm9vETVPmeQYGwtuGarFslCOrJOWGB5jKf094XJEVOuiRe/FufJi6QaWbH+QdwFHREsE2DwJEz9wBc/rued7mfcr62n2OEBHg3IBfXViLPTQrMeBbkejL+4BLHTYEEDB0EObuHt40bEsAMgWUzw6CGJP8vMVlkKWNVhJ4uo50Y50fuL6NliQyDjx+R2Zs+ZCXt4x1XQUFqt96rHWFMyC7NvFJFrc9EeBcT3bK8SYXb5xqt7cSuX3JfoIMyzjHGr0Uz0eeG7rinn9QctzDhsXMXI5LbE4Hca1+BgYwZqbj0leZqmOyAoxkBNmkVkSVE2Y6LoNMxXk7wrRaldITbb+vqNsMRUxoAkFagAM6qrK/C609862odGMr8gPLrcEIZyBjH3zOhG05fTXWvLhauzXTRwa8S7ec7BF3dBMZr1mrtLZ7XjSp1yK3/bf54C6S1MYesszpclzj4oyPWBdZLD+4jxSNxt/VdhrbQYvpdvW3wX3bIvlYJnfe85ofFN811UxzvfTeqbzl2jRrZZGnGutnIDI7wg9M8Dgx9DKVbrDOU5H7awQZ5vamxg9OZhm1DW62JtzSzSrqy9m9cbo2H4gkJreAaUnVeA1DWHpNpEUVbE9gnwvIaHii/whgsh7fHVcyzjTYpoRx3hWRmWWqBdo27kil3kie4QS08PLGlYxFJ2hCz6s8VUkaK6iPiWnHH1xJXG1/16HE3nDHeEyGzuhjYposxVsPMTl9TEzTvWCJmPuspYBpyzcE/kjPUQqYLI+HpA7isf8fYXJgVSUZHx6RvLimqAchfBeZS9Tpgl/vlYV8ci4tPDOVSkP4JJBLyW53Vx8T025/M4akjPmxR8ramCGSlM0HlwKmxfZAieSwzZO8/wDyC6daWso02wAAAABJRU5ErkJggg=="
+                alt=""
+              />
+            </div>
+            <div class="skill-name">c++</div>
+            <div class="skill-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem ratione quod a cum distinctio repellendus illum ea
+              voluptatibus rem asperiores.
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+            </div>
+            <div class="skill-name">c++</div>
+            <div class="skill-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem ratione quod a cum distinctio repellendus illum ea
+              voluptatibus rem asperiores.
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+            </div>
+            <div class="skill-name">c++</div>
+            <div class="skill-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem ratione quod a cum distinctio repellendus illum ea
+              voluptatibus rem asperiores.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start of timelne -->
+    <section class="timeline">
+      <div class="timeliner-container section-container">
+        <h1 class="section-heading">
+          Timeline
+        </h1>
+        <div class="underline"></div>
+        <div class="timeline-card timeline-cards time-right-border time-remove">
+          <span class="card-number card-number-right">1</span>
+          <h3 class="time">
+            2023
+          </h3>
+          <p class="time-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            aperiam officia nulla dolores animi nobis. Est sed vero rem harum!
+          </p>
+        </div>
+        <div class="timeline-card timeline-cards time-left-border">
+          <span class="card-number card-number-left">2</span>
+          <h3 class="time">
+            2022
+          </h3>
+          <p class="time-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            aperiam officia nulla dolores animi nobis. Est sed vero rem harum!
+          </p>
+        </div>
+
+        <div class="timeline-card timeline-cards time-right-border">
+          <span class="card-number card-number-right">3</span>
+          <h3 class="time">
+            2021
+          </h3>
+          <p class="time-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            aperiam officia nulla dolores animi nobis. Est sed vero rem harum!
+          </p>
+        </div>
+      </div>
+      <!-- start of skill section -->
+    </section>
+
+    <!-- starting  of footer section -->
+
+    <section class="footer">
+      <div class="footer-container">
+        <ul class="footer-links">
+          <li>
+            <a href="#" class="footer-link">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-text">
+          &copy;2023 Lalit Mehta. All Rights Reserved
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
